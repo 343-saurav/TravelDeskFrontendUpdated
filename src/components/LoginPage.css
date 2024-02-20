@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap");
+
+
+
+.form{
+  background-image: url('https://www.shutterstock.com/image-photo/woman-looking-photos-hands-travel-260nw-384473710.jpg');
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    opacity: 0.8;
+    overflow: hidden;
+    
+}
+#mainContainer {
+     background-image: linear-gradient(rgb(244, 244, 194),rgb(243, 219, 176));
+    border-radius: 5px;
+    padding: 20px;
+    width: 25%;
+    height: 52%;
+    text-align: center;
+    box-shadow: 0px 0px 10px  rgb(180, 90, 90);
+  }
+ 
+  .heading {
+    
+    color: black;
+    padding: 2px;
+    border-radius: 5px 5px 0px 0px;
+  }
+ 
+  .heading1 {
+    padding: 5px;
+  }
+ 
+  .email {
+    width: 100% ; 
+    padding: 12px 20px ;
+    margin: 4px 0 ;
+    display: inline-block ;
+    border: 1px solid #ccc ;
+    box-sizing: border-box ;
+    background-color: white ;
+  }
+  .password {
+    width: 100% ; 
+    padding: 12px 20px ;
+    margin: 4px 0 ;
+    display: inline-block ;
+    border: 1px solid #ccc ;
+    box-sizing: border-box ;
+    background-color: white ;
+    position: relative;
+  }
+ 
+ 
+  .inputButton {
+    background-color:  rgb(180, 90, 90) !important;
+    color: white !important;
+    padding: 10px 15px !important;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+ 
+  .inputButton:hover {
+    opacity: 0.8;
+  }
+ 
+  .forgot-Password {
+    text-align: center;
+    padding-top: 12px;
+  }
+ 
+  .forgot-Password a {
+    color: #4CAF50;
+  }
+  .input-group .input-group-text {
+    cursor: pointer; /* Add cursor:pointer for better UX */
+  }
+  
+  
+  
+  .input-group .input-group-text {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+ 

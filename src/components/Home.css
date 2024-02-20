@@ -1,0 +1,45 @@
+
+  .containerhome {
+    max-width: 800px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    overflow: hidden;
+    background-color: #fff;
+    padding-top: 25px;
+    margin-left: 100px;
+  }
+
+  .row {
+    display: flex;
+  }
+
+  .image-side {
+    flex: 1;
+    overflow: hidden;
+  }
+
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  }
+
+  .text-side {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 1.2rem;
+    color: #555;
+    text-align: center;
+  }

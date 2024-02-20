@@ -1,0 +1,113 @@
+.formContainer {
+    max-width: 800px;
+    margin: auto;
+    background-color: rgb(232, 227, 227);
+    padding: 15px;
+    box-shadow: 0px 0px 15px black;
+    margin-top: 30px;
+    border-radius: 10px;
+  }
+  
+  .title{
+    color: rgb(69, 129, 241);
+  }
+
+  .inputName {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .formRow {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+  }
+  
+  .formColumn {
+    /* flex: 1; */
+    width: 30%;
+    height: 13vh;
+    margin-right: 15px;
+    /* text-align: center; */
+  }
+
+  #bothflight{
+    width: 100%;
+  }
+
+  .options{
+    background-color: rgb(216, 213, 213);
+    
+  }
+  
+  /* Adjustments for select dropdowns */
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: rgb(216, 213, 213);
+  }
+  
+  /* Style for submit button */
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 350px;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style for file input */
+  input[type="file"] {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+ .inputField input[type="text"] {
+    width: 80%;
+    padding: 8px;
+    margin-top: 5px;
+    /* margin-bottom: 10px; */
+    box-sizing: border-box;
+    background-color: rgb(216, 213, 213);
+    border: 1px solid black;
+  }
+
+  .inputField input[type="number"] {
+    width: 80%;
+    padding: 8px;
+    margin-top: 5px;
+    /* margin-bottom: 10px; */
+    box-sizing: border-box;
+    background-color: rgb(216, 213, 213);
+    border: 1px solid black;
+  }
+  
+  
+  /* Adjustments for date input */
+  input[type="date"] {
+    width: 86.5%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: rgb(216, 213, 213);
+  }
+
+  
+  /* Added media query for responsiveness */
+  @media (max-width: 768px) {
+    .formColumn {
+      flex: 100%;
+      margin-right: 0;
+    }
+  }
